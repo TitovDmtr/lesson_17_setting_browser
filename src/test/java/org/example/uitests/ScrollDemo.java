@@ -24,7 +24,7 @@ public class ScrollDemo extends BaseTestClass {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='accept-choices']"))).click();
 
         // Test row for merge conflict:
-        int a = 0;
+        int a = 12;
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
